@@ -69,6 +69,7 @@ assets/            Branding images
 
 ## Related
 
+- **Connect with me:** [LinkedIn](https://www.linkedin.com/in/brittany-green-3b2bab40a)
 - [Privacy Analyst Portfolio](https://github.com/greebrit32-lgtm/privacy-portfolio): edtech vendor privacy review,
   privacy impact assessment, incident response tabletop.
 
