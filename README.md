@@ -5,8 +5,9 @@ A hands-on identity and access management (IAM) lab built in a live Microsoft En
 then automated with Microsoft Graph PowerShell, and **documented as compliance evidence mapped to
 NIST SP 800-171 Rev 2** (the standard CMMC Level 2 assesses against).
 
-I'm a 14-year high school teacher moving into IAM and GRC. This lab is my SC-300 exam practice and a
-working example of how I'd build, test, and evidence identity controls.
+I'm a 14-year high school teacher moving into IAM and GRC. I hold **Microsoft SC-300 (Identity and Access
+Administrator)** and **CompTIA Security+ (SY0-701)**. This lab puts those skills into practice and shows how
+I'd build, test, and evidence identity controls.
 
 > **Status: Week 1 of 5, in progress.** The table below shows only what's built today.
 

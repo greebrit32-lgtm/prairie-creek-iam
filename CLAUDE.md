@@ -5,7 +5,8 @@ I'm Britt, a high school chemistry teacher (14 years) moving into IAM / GRC / pr
 Target roles: IAM analyst/engineer, **and** GRC/compliance roles, especially at defense contractors
 (CMMC compliance analyst, security compliance analyst, IAM at a contractor).
 This project is three things at once:
-1. Hands-on practice for the Microsoft SC-300 exam (skills measured as of Oct 28, 2026).
+1. Hands-on practice of Microsoft SC-300 skills (skills measured as of Oct 28, 2026). I passed SC-300 and
+   CompTIA Security+ (SY0-701) in Nov 2026; IAPP CIPP/US is in progress.
 2. A portfolio piece showing hiring managers real Microsoft Entra configuration skills.
 3. A compliance portfolio: every feature produces **evidence mapped to NIST SP 800-171 Rev 2**,
    families Access Control (3.1.x) and Identification & Authentication (3.5.x).
