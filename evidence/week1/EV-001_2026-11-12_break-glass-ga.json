@@ -1,0 +1,52 @@
+{
+  "evidenceId": "EV-001",
+  "capturedAtUtc": "2026-11-12T13:41:33Z",
+  "capturedBy": "britt.admin@<tenant>.onmicrosoft.com",
+  "tenantId": "<tenant-id>",
+  "method": "Microsoft Graph PowerShell (read-only): Get-MgUser, Get-MgDirectoryRole, Get-MgDirectoryRoleMember",
+  "scopes": [
+    "openid",
+    "profile",
+    "RoleManagement.Read.Directory",
+    "User.Read.All",
+    "email",
+    "User.ReadWrite.All",
+    "User-LifeCycleInfo.ReadWrite.All"
+  ],
+  "emergencyAccounts": [
+    {
+      "displayName": "Emergency Access 01",
+      "userPrincipalName": "pcisd-ea01@<tenant>.onmicrosoft.com",
+      "accountEnabled": true,
+      "userType": "Member",
+      "cloudOnly": true,
+      "createdDateTime": "2026-11-10T17:36:30Z",
+      "department": null,
+      "jobTitle": null,
+      "holdsGlobalAdmin": true
+    },
+    {
+      "displayName": "Emergency Access 02",
+      "userPrincipalName": "pcisd-ea02@<tenant>.onmicrosoft.com",
+      "accountEnabled": true,
+      "userType": "Member",
+      "cloudOnly": true,
+      "createdDateTime": "2026-11-10T19:26:48Z",
+      "department": null,
+      "jobTitle": null,
+      "holdsGlobalAdmin": true
+    }
+  ],
+  "globalAdminMembers": [
+    "britt.admin@<tenant>.onmicrosoft.com",
+    "<personal-account>#EXT#@<tenant>.onmicrosoft.com",
+    "pcisd-ea01@<tenant>.onmicrosoft.com",
+    "pcisd-ea02@<tenant>.onmicrosoft.com"
+  ],
+  "checks": {
+    "twoEmergencyAccountsExist": true,
+    "bothHoldGlobalAdmin": true,
+    "bothCloudOnly": true,
+    "bothEnabled": true
+  }
+}

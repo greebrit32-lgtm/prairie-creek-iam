@@ -1,0 +1,27 @@
+# Secrets & credentials: never commit
+.env
+*.env
+secrets/
+*secret*
+*.pfx
+*.pem
+*.key
+*.cer
+*token*
+*password*
+*tap*.txt
+
+# Exports that may contain real-looking tenant data
+exports/
+*-export*.csv
+*.xlsx
+
+# Logs & OS junk
+*.log
+.DS_Store
+
+# Unredacted evidence (screenshots, Graph exports): never commit
+evidence/raw/
+
+# Local lab settings (real tenant domain): never commit
+config/*.local.psd1

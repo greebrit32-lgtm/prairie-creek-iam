@@ -1,0 +1,34 @@
+EmployeeId,GivenName,Surname,DisplayName,UpnPrefix,JobTitle,Department,EmployeeHireDate,EmployeeLeaveDateTime,UsageLocation
+D1001,Renee,Calloway,Renee Calloway,renee.calloway,District Admin,District Office,2015-07-01,,US
+D1002,Marcus,Whitfield,Marcus Whitfield,marcus.whitfield,District Admin,District Office,2019-07-15,,US
+D1003,Priya,Nandakumar,Priya Nandakumar,priya.nandakumar,IT Staff,District Office,2021-06-01,,US
+D1004,Tomas,Echeverria,Tomas Echeverria,tomas.echeverria,IT Staff,District Office,2023-08-01,,US
+D1005,Jolene,Pruitt,Jolene Pruitt,jolene.pruitt,Substitute,District Office,2025-09-02,,US
+D1006,Dwayne,Okafor,Dwayne Okafor,dwayne.okafor,Substitute,District Office,2026-10-05,,US
+D1007,Lorraine,Medford,Lorraine Medford,lorraine.medford,Finance Director,District Office,2016-07-01,,US
+D1008,Victor,Ambrose,Victor Ambrose,victor.ambrose,Grants Coordinator,District Office,2022-01-10,,US
+D1009,Felicity,Oyelaran,Felicity Oyelaran,felicity.oyelaran,Accounts Payable Specialist,District Office,2024-03-04,,US
+H1001,Gloria,Templeton,Gloria Templeton,gloria.templeton,Campus Admin,Prairie Creek High School,2012-07-01,,US
+H1002,Ray,Castellanos,Ray Castellanos,ray.castellanos,Campus Admin,Prairie Creek High School,2020-07-01,,US
+H1003,Hannah,Albright,Hannah Albright,hannah.albright,Teacher,Prairie Creek High School,2018-08-13,,US
+H1004,Desmond,Achterberg,Desmond Achterberg,desmond.achterberg,Teacher,Prairie Creek High School,2022-08-15,,US
+H1005,Lucia,Ferraro,Lucia Ferraro,lucia.ferraro,Teacher,Prairie Creek High School,2016-08-15,,US
+H1006,Wade,Kittredge,Wade Kittredge,wade.kittredge,Teacher,Prairie Creek High School,2024-08-12,2026-12-18,US
+H1007,Avery,Lindqvist,Avery Lindqvist,avery.lindqvist,Student,Prairie Creek High School,2026-08-17,,US
+H1008,Mateo,Quintanilla,Mateo Quintanilla,mateo.quintanilla,Student,Prairie Creek High School,2026-08-17,,US
+H1009,Jasmine,Boateng,Jasmine Boateng,jasmine.boateng,Student,Prairie Creek High School,2026-08-17,,US
+H1010,Tyler,Haverford,Tyler Haverford,tyler.haverford,Student,Prairie Creek High School,2026-08-17,,US
+M1001,Sandra,Delacroix,Sandra Delacroix,sandra.delacroix,Campus Admin,Bluebonnet Middle School,2017-07-01,,US
+M1002,Brent,Holloway,Brent Holloway,brent.holloway,Teacher,Bluebonnet Middle School,2019-08-12,,US
+M1003,Keisha,Marlow,Keisha Marlow,keisha.marlow,Teacher,Bluebonnet Middle School,2021-08-16,,US
+M1004,Ivan,Petrosyan,Ivan Petrosyan,ivan.petrosyan,Teacher,Bluebonnet Middle School,2025-08-11,,US
+M1005,Nora,Castillo,Nora Castillo,nora.castillo,Student,Bluebonnet Middle School,2026-08-17,,US
+M1006,Eli,Brandt,Eli Brandt,eli.brandt,Student,Bluebonnet Middle School,2026-08-17,,US
+M1007,Sofia,Varga,Sofia Varga,sofia.varga,Student,Bluebonnet Middle School,2026-08-17,,US
+E1001,Patricia,Lindell,Patricia Lindell,patricia.lindell,Campus Admin,Mesquite Elementary,2014-07-01,,US
+E1002,Carmen,Ybarra,Carmen Ybarra,carmen.ybarra,Teacher,Mesquite Elementary,2013-08-12,,US
+E1003,Owen,Pickett,Owen Pickett,owen.pickett,Teacher,Mesquite Elementary,2020-08-17,,US
+E1004,Mai,Thornbury,Mai Thornbury,mai.thornbury,Teacher,Mesquite Elementary,2023-08-14,,US
+E1005,Liam,Rasmussen,Liam Rasmussen,liam.rasmussen,Student,Mesquite Elementary,2026-08-17,,US
+E1006,Zoe,Abernathy,Zoe Abernathy,zoe.abernathy,Student,Mesquite Elementary,2026-08-17,,US
+E1007,Diego,Fuentes,Diego Fuentes,diego.fuentes,Student,Mesquite Elementary,2026-08-17,,US
