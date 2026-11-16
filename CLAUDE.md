@@ -2,11 +2,16 @@
 
 ## Who I am and why this exists
 I'm Britt, a high school chemistry teacher (14 years) moving into IAM / GRC / privacy roles.
-Target roles: IAM analyst/engineer, **and** GRC/compliance roles, especially at defense contractors
-(CMMC compliance analyst, security compliance analyst, IAM at a contractor).
+Target roles: **IAM is my main path** (IAM analyst/engineer, including IAM at defense contractors).
+GRC/compliance roles are a backup only. IAPP CIPP/US is optional and on the back burner.
+Because IAM comes first, favor depth on Entra configuration and PowerShell automation (joiner-mover-leaver:
+provisioning, group assignment, offboarding); keep the NIST evidence going, but don't let it crowd out the IAM work.
+**Resume honesty:** my PowerShell is "learning in a lab environment," except the finished 33-user bulk provisioning.
+When we finish a new script (group assignment, offboarding, etc.), offer to help me upgrade my resume bullet
+to describe exactly what was built, and nothing more.
 This project is three things at once:
 1. Hands-on practice of Microsoft SC-300 skills (skills measured as of Oct 28, 2026). I passed SC-300 and
-   CompTIA Security+ (SY0-701) in Nov 2026; IAPP CIPP/US is in progress.
+   CompTIA Security+ (SY0-701) in Nov 2026.
 2. A portfolio piece showing hiring managers real Microsoft Entra configuration skills.
 3. A compliance portfolio: every feature produces **evidence mapped to NIST SP 800-171 Rev 2**,
    families Access Control (3.1.x) and Identification & Authentication (3.5.x).
@@ -67,7 +72,7 @@ All people and data are fictional. Never use real student, staff, or district na
   jobTitle (role), employeeHireDate, employeeLeaveDateTime
 - Fictional apps: an LMS from the Entra app gallery, a custom "Gradebook" app registration
   with app roles Teacher and Student, and a "Grants Portal" app assigned only to the restricted group
-- **Restricted group: "Finance & Grants – Restricted"**: 3–4 users who handle federal grant data,
+- **Restricted group: "Finance & Grants - Restricted"**: 3–4 users who handle federal grant data,
   our stand-in for CUI (Controlled Unclassified Information, the data CMMC protects).
   It gets the strictest Conditional Access set and a quarterly access review.
 - **My accounts:** `britt.admin` (Global Administrator, admin tasks only) and `britt.green`
@@ -79,7 +84,7 @@ P2 trial (30 days, one per tenant) gets activated on day 1 of Week 2 — not bef
 
 | Week | Milestone | SC-300 area |
 |---|---|---|
-| 1 (free tier) | Branding, 2 break-glass accounts, bulk users via CSV, attributes, static groups (incl. "Finance & Grants – Restricted"), `britt.green` daily account, one Graph PowerShell bulk task | User identities; emergency access accounts |
+| 1 (free tier) | Branding, 2 break-glass accounts, bulk users via CSV, attributes, static groups (incl. "Finance & Grants - Restricted"), `britt.green` daily account, one Graph PowerShell bulk task | User identities; emergency access accounts |
 | 2 | Auth methods (Authenticator, TAP, passkeys), SSPR, banned passwords, registration campaign, 5 CA policies (report-only → on), What If testing, sign-in risk. **Plus the restricted CA set** for the restricted group: phishing-resistant MFA (authentication strength), block sign-ins outside the US (named location), 4-hour sign-in frequency with no persistent browser, and require compliant device **in report-only only** (no Intune, so it's a POA&M gap) | Authentication & access management; ID Protection |
 | 3 | Dynamic groups, group-based app assignment, Gradebook app registration + app roles, **"Grants Portal" app assigned only to the restricted group**, administrative units per campus, scoped roles, mover test | User identities; workload identities |
 | 4 | Entitlement catalog, Substitute Teacher access package with expiration, B2B guest vendor, Terms of Use, leaver automation (Lifecycle Workflows if Governance trial activates; otherwise PowerShell offboarding script), access review, **quarterly access review of the restricted group** | Identity governance |
@@ -117,5 +122,12 @@ Week 1, in progress (started 2026-11-09).
   passkeys in Week 2); branding (English + Spanish); Hannah Albright created by hand;
   `scripts/week1/New-PcisdUsers.ps1` written and dry-run passed (1 skipped, 29 would be created).
 - Known: personal Gmail (`#EXT#`) also holds Global Admin. Review it in Week 5.
-- Next: EV-001 (break-glass evidence) → add restricted-group users to the CSV → real bulk run
-  (needs my OK) → `britt.green` → static groups incl. "Finance & Grants – Restricted".
+- Done since: EV-001 complete (JSON 2026-11-12 + portal screenshot 2026-11-14); bulk run created all
+  33 roster users; EV-002 roster reconciliation captured.
+- Done 2026-11-15: `britt.green` (EV-003; jobTitle trailing space found and fixed); "Finance & Grants - Restricted"
+  (EV-004; Lucia Ferraro is the planted stale member for the Week 4 review); "Bluebonnet Middle School - Staff"
+  filled by `scripts/week1/Add-PcisdCampusGroupMembers.ps1` (4 added; dry run caught students in a staff group).
+- Next session (by 2026-11-22, free-tier audit logs keep 7 days): SC-300 quiz on Week 1 (5 questions) → EV-005
+  (Bluebonnet group screenshot + audit log entries) → create "Prairie Creek High School - Staff" and
+  "Mesquite Elementary - Staff" by hand and fill them with the script → then start Week 2 (activate P2 trial day 1).
+- Copy-paste into portal name fields has added trailing spaces twice: type names by hand.

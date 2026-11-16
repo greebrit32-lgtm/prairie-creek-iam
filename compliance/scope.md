@@ -10,7 +10,7 @@ Rev 2 is used because CMMC Level 2 assesses against Rev 2.
 | Asset | What it is | Why it's in scope |
 |---|---|---|
 | Microsoft Entra ID tenant "Prairie Creek ISD" | Identity provider for all users and apps | Every 3.1/3.5 control in this lab is enforced here |
-| "Finance & Grants – Restricted" group | 3–4 users who handle federal grant data (CUI stand-in) | The protected population; strictest controls apply |
+| "Finance & Grants - Restricted" group | 3–4 users who handle federal grant data (CUI stand-in) | The protected population; strictest controls apply |
 | "Grants Portal" app (Week 3) | App that holds the grant data | The system CUI would live in; access limited to the restricted group |
 | Privileged accounts | `britt.admin`, 2 break-glass accounts | Admin access to the whole tenant |
 | `britt.green` | My non-admin daily account | Shows separation of privileged / non-privileged use (3.1.6) |

@@ -18,8 +18,8 @@ I'd build, test, and evidence identity controls.
 | Tenant setup & branding | ✅ Done | Custom sign-in branding in **English and Spanish** |
 | Emergency access (break-glass) accounts | ✅ Done | 2 cloud-only Global Admin accounts, created by hand; evidence EV-001 |
 | Bulk user provisioning | ✅ Done | 33 fictional users across 3 campuses + District Office, with job title, department, employee ID, hire/leave dates; evidence EV-002 |
-| Separate daily (non-admin) account | 🔄 In progress | Planned for NIST 3.1.6 |
-| Groups (static, incl. a restricted finance group) | 🔄 In progress | None yet |
+| Separate daily (non-admin) account | ✅ Done | `britt.green`, no roles (NIST 3.1.6); evidence EV-003 |
+| Groups (static, incl. a restricted finance group) | 🔄 In progress | Restricted finance group (EV-004); campus staff groups filled by script (1 of 3 campuses) |
 | MFA / auth methods, SSPR, Conditional Access | 📅 Week 2 | Includes a restricted CA set: phishing-resistant MFA, US-only, 4-hour sign-in frequency |
 | Dynamic groups, app roles, admin units | 📅 Week 3 | |
 | Access packages, guests, access reviews, offboarding | 📅 Week 4 | |
@@ -41,6 +41,8 @@ I'd build, test, and evidence identity controls.
 |---|---|---|
 | EV-001 | Break-glass accounts exist, are cloud-only, enabled, and hold Global Admin; full Global Admin list | 3.1.1, 3.1.5 |
 | EV-002 | 33 users reconciled against the roster; forced password change at first sign-in; no admin roles | 3.5.1, 3.5.9, 3.1.5 |
+| EV-003 | Separate non-admin daily account with 0 roles; attribute error found by Graph check and fixed | 3.1.6 (partial), 3.1.5 |
+| EV-004 | Restricted static security group for grant data (CUI stand-in): owner, members, not role-assignable | 3.1.1, 3.1.2 (partial) |
 
 ## Scripts (Microsoft Graph PowerShell)
 
@@ -49,6 +51,7 @@ I'd build, test, and evidence identity controls.
 | [`New-PcisdUsers.ps1`](scripts/week1/New-PcisdUsers.ps1) | Yes | Bulk-creates users from CSV. Supports `-WhatIf`, skips existing users, random passwords held in memory only (never shown or saved), refuses to run as the wrong account |
 | [`Get-BreakGlassEvidence.ps1`](scripts/week1/Get-BreakGlassEvidence.ps1) | No | Captures EV-001 and writes raw + redacted JSON |
 | [`Get-UserRosterEvidence.ps1`](scripts/week1/Get-UserRosterEvidence.ps1) | No | Captures EV-002 roster reconciliation |
+| [`Add-PcisdCampusGroupMembers.ps1`](scripts/week1/Add-PcisdCampusGroupMembers.ps1) | Yes | Adds campus staff to their group by department **and** job title. Supports `-WhatIf`, adds only (reports mismatches, never removes), refuses restricted/role-assignable/dynamic groups. First dry run caught students who would have joined a staff group |
 
 Practices: delegated sign-in with least-privilege scopes, dry run before every change, no secrets on disk,
 tenant-specific values kept in a gitignored local config ([`config/lab.example.psd1`](config/lab.example.psd1)).
