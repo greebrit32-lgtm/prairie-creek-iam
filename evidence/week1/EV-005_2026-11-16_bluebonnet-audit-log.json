@@ -1,0 +1,445 @@
+[
+  {
+    "id": "<redacted>",
+    "category": "GroupManagement",
+    "correlationId": "<redacted>",
+    "result": "success",
+    "resultReason": "",
+    "activityDisplayName": "Add member to group",
+    "activityDateTime": "2026-11-16T03:22:22.3078606Z",
+    "loggedByService": "Core Directory",
+    "operationType": "Assign",
+    "userAgent": "",
+    "initiatedBy": {
+      "app": null,
+      "user": {
+        "id": "<object-1>",
+        "displayName": "Microsoft Graph Command Line Tools",
+        "userPrincipalName": "britt.admin@<tenant>.onmicrosoft.com",
+        "ipAddress": "<ip>",
+        "userType": null,
+        "agentType": "notAgentic",
+        "homeTenantId": null,
+        "homeTenantName": null
+      },
+      "linkableIdentifiers": {
+        "sessionId": "<redacted>",
+        "deviceId": null,
+        "tokenDetails": {
+          "uniqueTokenIdentifier": "<redacted>",
+          "issuedAtDateTime": "2026-11-16T03:15:36Z"
+        }
+      }
+    },
+    "performedBy": {
+      "appId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
+      "blueprintId": null
+    },
+    "targetResources": [
+      {
+        "id": "<object-2>",
+        "displayName": null,
+        "type": "User",
+        "userPrincipalName": "ivan.petrosyan@<tenant>.onmicrosoft.com",
+        "groupType": null,
+        "modifiedProperties": [
+          {
+            "displayName": "Group.ObjectID",
+            "oldValue": null,
+            "newValue": "\"<object-3>\""
+          },
+          {
+            "displayName": "Group.DisplayName",
+            "oldValue": null,
+            "newValue": "\"Bluebonnet Middle School - Staff\""
+          }
+        ]
+      },
+      {
+        "id": "<object-3>",
+        "displayName": null,
+        "type": "Group",
+        "userPrincipalName": null,
+        "groupType": "unknownFutureValue",
+        "modifiedProperties": []
+      }
+    ],
+    "additionalDetails": [
+      {
+        "key": "User-Agent",
+        "value": "Mozilla/5.0 (Macintosh; macOS 27.2.0; en-US) PowerShell/7.6.9"
+      }
+    ]
+  },
+  {
+    "id": "<redacted>",
+    "category": "GroupManagement",
+    "correlationId": "<redacted>",
+    "result": "success",
+    "resultReason": "",
+    "activityDisplayName": "Add member to group",
+    "activityDateTime": "2026-11-16T03:22:22.1038527Z",
+    "loggedByService": "Core Directory",
+    "operationType": "Assign",
+    "userAgent": "",
+    "initiatedBy": {
+      "app": null,
+      "user": {
+        "id": "<object-1>",
+        "displayName": "Microsoft Graph Command Line Tools",
+        "userPrincipalName": "britt.admin@<tenant>.onmicrosoft.com",
+        "ipAddress": "<ip>",
+        "userType": null,
+        "agentType": "notAgentic",
+        "homeTenantId": null,
+        "homeTenantName": null
+      },
+      "linkableIdentifiers": {
+        "sessionId": "<redacted>",
+        "deviceId": null,
+        "tokenDetails": {
+          "uniqueTokenIdentifier": "<redacted>",
+          "issuedAtDateTime": "2026-11-16T03:15:36Z"
+        }
+      }
+    },
+    "performedBy": {
+      "appId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
+      "blueprintId": null
+    },
+    "targetResources": [
+      {
+        "id": "<object-4>",
+        "displayName": null,
+        "type": "User",
+        "userPrincipalName": "brent.holloway@<tenant>.onmicrosoft.com",
+        "groupType": null,
+        "modifiedProperties": [
+          {
+            "displayName": "Group.ObjectID",
+            "oldValue": null,
+            "newValue": "\"<object-3>\""
+          },
+          {
+            "displayName": "Group.DisplayName",
+            "oldValue": null,
+            "newValue": "\"Bluebonnet Middle School - Staff\""
+          }
+        ]
+      },
+      {
+        "id": "<object-3>",
+        "displayName": null,
+        "type": "Group",
+        "userPrincipalName": null,
+        "groupType": "unknownFutureValue",
+        "modifiedProperties": []
+      }
+    ],
+    "additionalDetails": [
+      {
+        "key": "User-Agent",
+        "value": "Mozilla/5.0 (Macintosh; macOS 27.2.0; en-US) PowerShell/7.6.9"
+      }
+    ]
+  },
+  {
+    "id": "<redacted>",
+    "category": "GroupManagement",
+    "correlationId": "<redacted>",
+    "result": "success",
+    "resultReason": "",
+    "activityDisplayName": "Add member to group",
+    "activityDateTime": "2026-11-16T03:22:21.9272484Z",
+    "loggedByService": "Core Directory",
+    "operationType": "Assign",
+    "userAgent": "",
+    "initiatedBy": {
+      "app": null,
+      "user": {
+        "id": "<object-1>",
+        "displayName": "Microsoft Graph Command Line Tools",
+        "userPrincipalName": "britt.admin@<tenant>.onmicrosoft.com",
+        "ipAddress": "<ip>",
+        "userType": null,
+        "agentType": "notAgentic",
+        "homeTenantId": null,
+        "homeTenantName": null
+      },
+      "linkableIdentifiers": {
+        "sessionId": "<redacted>",
+        "deviceId": null,
+        "tokenDetails": {
+          "uniqueTokenIdentifier": "<redacted>",
+          "issuedAtDateTime": "2026-11-16T03:15:36Z"
+        }
+      }
+    },
+    "performedBy": {
+      "appId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
+      "blueprintId": null
+    },
+    "targetResources": [
+      {
+        "id": "<object-5>",
+        "displayName": null,
+        "type": "User",
+        "userPrincipalName": "sandra.delacroix@<tenant>.onmicrosoft.com",
+        "groupType": null,
+        "modifiedProperties": [
+          {
+            "displayName": "Group.ObjectID",
+            "oldValue": null,
+            "newValue": "\"<object-3>\""
+          },
+          {
+            "displayName": "Group.DisplayName",
+            "oldValue": null,
+            "newValue": "\"Bluebonnet Middle School - Staff\""
+          }
+        ]
+      },
+      {
+        "id": "<object-3>",
+        "displayName": null,
+        "type": "Group",
+        "userPrincipalName": null,
+        "groupType": "unknownFutureValue",
+        "modifiedProperties": []
+      }
+    ],
+    "additionalDetails": [
+      {
+        "key": "User-Agent",
+        "value": "Mozilla/5.0 (Macintosh; macOS 27.2.0; en-US) PowerShell/7.6.9"
+      }
+    ]
+  },
+  {
+    "id": "<redacted>",
+    "category": "GroupManagement",
+    "correlationId": "<redacted>",
+    "result": "success",
+    "resultReason": "",
+    "activityDisplayName": "Add member to group",
+    "activityDateTime": "2026-11-16T03:22:21.7532486Z",
+    "loggedByService": "Core Directory",
+    "operationType": "Assign",
+    "userAgent": "",
+    "initiatedBy": {
+      "app": null,
+      "user": {
+        "id": "<object-1>",
+        "displayName": "Microsoft Graph Command Line Tools",
+        "userPrincipalName": "britt.admin@<tenant>.onmicrosoft.com",
+        "ipAddress": "<ip>",
+        "userType": null,
+        "agentType": "notAgentic",
+        "homeTenantId": null,
+        "homeTenantName": null
+      },
+      "linkableIdentifiers": {
+        "sessionId": "<redacted>",
+        "deviceId": null,
+        "tokenDetails": {
+          "uniqueTokenIdentifier": "<redacted>",
+          "issuedAtDateTime": "2026-11-16T03:15:36Z"
+        }
+      }
+    },
+    "performedBy": {
+      "appId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
+      "blueprintId": null
+    },
+    "targetResources": [
+      {
+        "id": "<object-6>",
+        "displayName": null,
+        "type": "User",
+        "userPrincipalName": "keisha.marlow@<tenant>.onmicrosoft.com",
+        "groupType": null,
+        "modifiedProperties": [
+          {
+            "displayName": "Group.ObjectID",
+            "oldValue": null,
+            "newValue": "\"<object-3>\""
+          },
+          {
+            "displayName": "Group.DisplayName",
+            "oldValue": null,
+            "newValue": "\"Bluebonnet Middle School - Staff\""
+          }
+        ]
+      },
+      {
+        "id": "<object-3>",
+        "displayName": null,
+        "type": "Group",
+        "userPrincipalName": null,
+        "groupType": "unknownFutureValue",
+        "modifiedProperties": []
+      }
+    ],
+    "additionalDetails": [
+      {
+        "key": "User-Agent",
+        "value": "Mozilla/5.0 (Macintosh; macOS 27.2.0; en-US) PowerShell/7.6.9"
+      }
+    ]
+  },
+  {
+    "id": "<redacted>",
+    "category": "GroupManagement",
+    "correlationId": "<redacted>",
+    "result": "success",
+    "resultReason": "",
+    "activityDisplayName": "Add owner to group",
+    "activityDateTime": "2026-11-16T03:16:13.650006Z",
+    "loggedByService": "Core Directory",
+    "operationType": "Assign",
+    "userAgent": "",
+    "performedBy": null,
+    "initiatedBy": {
+      "app": null,
+      "user": {
+        "id": "<object-1>",
+        "displayName": null,
+        "userPrincipalName": "britt.admin@<tenant>.onmicrosoft.com",
+        "ipAddress": "<ip>",
+        "userType": null,
+        "agentType": "notAgentic",
+        "homeTenantId": null,
+        "homeTenantName": null
+      },
+      "linkableIdentifiers": {
+        "sessionId": "<redacted>",
+        "deviceId": null,
+        "tokenDetails": {
+          "uniqueTokenIdentifier": "<redacted>",
+          "issuedAtDateTime": "2026-11-15T22:10:45Z"
+        }
+      }
+    },
+    "targetResources": [
+      {
+        "id": "<object-1>",
+        "displayName": null,
+        "type": "User",
+        "userPrincipalName": "britt.admin@<tenant>.onmicrosoft.com",
+        "groupType": null,
+        "modifiedProperties": [
+          {
+            "displayName": "Group.ObjectID",
+            "oldValue": null,
+            "newValue": "\"<object-3>\""
+          },
+          {
+            "displayName": "Group.DisplayName",
+            "oldValue": null,
+            "newValue": "\"Bluebonnet Middle School - Staff\""
+          }
+        ]
+      },
+      {
+        "id": "<object-3>",
+        "displayName": null,
+        "type": "Group",
+        "userPrincipalName": null,
+        "groupType": "unknownFutureValue",
+        "modifiedProperties": []
+      }
+    ],
+    "additionalDetails": [
+      {
+        "key": "User-Agent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      }
+    ]
+  },
+  {
+    "id": "<redacted>",
+    "category": "GroupManagement",
+    "correlationId": "<redacted>",
+    "result": "success",
+    "resultReason": "",
+    "activityDisplayName": "Add group",
+    "activityDateTime": "2026-11-16T03:16:11.8931906Z",
+    "loggedByService": "Core Directory",
+    "operationType": "Add",
+    "userAgent": "",
+    "performedBy": null,
+    "initiatedBy": {
+      "app": null,
+      "user": {
+        "id": "<object-1>",
+        "displayName": null,
+        "userPrincipalName": "britt.admin@<tenant>.onmicrosoft.com",
+        "ipAddress": "<ip>",
+        "userType": null,
+        "agentType": "notAgentic",
+        "homeTenantId": null,
+        "homeTenantName": null
+      },
+      "linkableIdentifiers": {
+        "sessionId": "<redacted>",
+        "deviceId": null,
+        "tokenDetails": {
+          "uniqueTokenIdentifier": "<redacted>",
+          "issuedAtDateTime": "2026-11-15T22:10:45Z"
+        }
+      }
+    },
+    "targetResources": [
+      {
+        "id": "<object-3>",
+        "displayName": "Bluebonnet Middle School - Staff",
+        "type": "Group",
+        "userPrincipalName": null,
+        "groupType": "unknownFutureValue",
+        "modifiedProperties": [
+          {
+            "displayName": "Description",
+            "oldValue": "[]",
+            "newValue": "[\"All staff who handles FERPA covered student records\"]"
+          },
+          {
+            "displayName": "DisplayName",
+            "oldValue": "[]",
+            "newValue": "[\"Bluebonnet Middle School - Staff\"]"
+          },
+          {
+            "displayName": "MailEnabled",
+            "oldValue": "[]",
+            "newValue": "[false]"
+          },
+          {
+            "displayName": "MailNickname",
+            "oldValue": "[]",
+            "newValue": "[\"a6c46e1b-7\"]"
+          },
+          {
+            "displayName": "RenewedDateTime",
+            "oldValue": "[]",
+            "newValue": "[\"2026-11-16T03:16:11Z\"]"
+          },
+          {
+            "displayName": "SecurityEnabled",
+            "oldValue": "[]",
+            "newValue": "[true]"
+          },
+          {
+            "displayName": "Included Updated Properties",
+            "oldValue": null,
+            "newValue": "\"Description, DisplayName, MailEnabled, MailNickname, RenewedDateTime, SecurityEnabled\""
+          }
+        ]
+      }
+    ],
+    "additionalDetails": [
+      {
+        "key": "User-Agent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      }
+    ]
+  }
+]

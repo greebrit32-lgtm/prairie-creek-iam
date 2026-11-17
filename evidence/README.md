@@ -38,7 +38,10 @@ silently never be committed. Use alternatives like `pwd-policy`, `auth-methods`,
 1. **Capture** the screenshot or Graph output into `raw/` with the full name.
 2. **Hash** the raw file: `shasum -a 256 evidence/raw/<file>`. Record it in the register. This proves the
    original wasn't altered later (integrity).
-3. **Redact** a copy into `weekN/`, keeping the same file name.
+3. **Redact** a copy into `weekN/`, keeping the same file name. **Never mark up the raw file itself:**
+   Preview auto-saves markup into whatever file is open. Duplicate it first (Finder, ⌘D), mark up the
+   duplicate, export it to `weekN/`, then delete the duplicate. Re-hash the raw file afterward to confirm
+   it still matches the register (if not, restore it via Preview → File → Revert To → Browse All Versions).
 4. **Log** it in `evidence-register.csv`.
 5. **Map** the evidence ID in `../compliance/control-mapping.md`.
 

@@ -13,4 +13,4 @@
 ## Quiz results
 | Date | Topic | Score | Missed / review |
 |---|---|---|---|
-| | | | |
+| 2026-11-15 | Week 1: break-glass accounts, -WhatIf, attribute-based groups, Graph least privilege, separate admin account | 4/5 | Q2: `-WhatIf` changes **nothing** (not even disabled accounts); it only previews |
